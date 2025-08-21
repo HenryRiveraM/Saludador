@@ -1,19 +1,58 @@
 <!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <title>Sumador</title>
-  </head>
-  <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <div id="resultado-div"></div>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bot Saludador</title>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+  <main class="app">
+    <div class="card">
+      <h1>Hola, en que puedo ayudarte?</h1>
 
-    <script type="module" src="./src/presenter.js"></script>
-  </body>
+      <div class="grid grid-2">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="text" placeholder="Escribe tu nombre" autocomplete="name" />
+          <!-- <div class="helper">Si lo dejas vacío, usaremos “visitante”.</div> -->
+        </div>
+
+        <div>
+          <label for="edad">Edad</label>
+          <input id="edad" type="number" min="0" max="120" placeholder="Ej. 28" />
+          <!-- <div class="helper">Si edad &gt; 30 y no eliges género, se usará cortesía (Sr./Sra. o Mr./Ms.).</div> -->
+        </div>
+
+        <div>
+          <label>Género</label>
+          <div class="radios" role="radiogroup" aria-label="Género">
+            <label class="radio"><input type="radio" name="genero" value="H" /> Hombre</label>
+            <label class="radio"><input type="radio" name="genero" value="M" /> Mujer</label>
+            <!-- <label class="radio"><input type="radio" name="genero" value="N" /> Prefiero no decir</label>
+            <label class="radio"><input type="radio" name="genero" value="" /> Ninguno</label> -->
+          </div>
+        </div>
+
+        <div>
+          <label for="idioma">Idioma / Language</label>
+          <select id="idioma">
+            <option value="es" selected>Español</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="btnSaludar">Saludar</button>
+        <span class="muted" id="hintHora"></span>
+      </div>
+
+      <div id="mensaje" class="output" aria-live="polite"></div>
+    </div>
+  </main>
+
+  <!-- Importamos el script -->
+  <script src="./src/funcionesSaludador.js"></script>
+</body>
 </html>

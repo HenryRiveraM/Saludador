@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-08-21T12:40:12.000Z",
+      "message": "Agredando la funciones a nuestro chat bot",
+      "url": "https://github.com/HenryRiveraM/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6102,
+      "additions": 2829,
+      "deletions": 3273,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
