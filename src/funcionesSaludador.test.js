@@ -30,3 +30,27 @@ describe("titleCase", () => {
     expect(titleCase("")).toBe("");
   });
 });
+
+// -----------------------------
+// PRUEBAS PARA getHourGreeting
+// -----------------------------
+describe("getHourGreeting", () => {
+  // ✅ En español, antes de las 12 debe devolver 'Buenos días'
+  test("devuelve 'Buenos días' en español antes de las 12", () => {
+    mockDate("09");
+    expect(getHourGreeting("es")).toBe("Buenos días");
+  });
+
+  // ✅ En español, entre 12 y 19 debe devolver 'Buenas tardes'
+  test("devuelve 'Buenas tardes' en español entre 12 y 19", () => {
+    mockDate("15");
+    expect(getHourGreeting("es")).toBe("Buenas tardes");
+  });
+
+  // ✅ En inglés, después de las 19 debe devolver 'Good evening'
+  test("devuelve 'Good evening' en inglés después de 19", () => {
+    mockDate("21");
+    expect(getHourGreeting("en")).toBe("Good evening");
+  });
+});
+
