@@ -57,17 +57,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f7b723b0ba5224263cca0e2c234d21e68b30dcab",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-08-26T03:15:09.000Z",
       "message": "feat: agregando la prueba de getHourGreeting",
-      "url": "https://github.com/HenryRiveraM/Saludador/commit/HEAD"
+      "url": "https://github.com/HenryRiveraM/Saludador/commit/f7b723b0ba5224263cca0e2c234d21e68b30dcab"
     },
     "stats": {
       "total": 26,
       "additions": 25,
       "deletions": 1,
+      "date": "2025-08-26"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-08-26T03:22:22.000Z",
+      "message": "feat: agregando la prueba de getCourtesy",
+      "url": "https://github.com/HenryRiveraM/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 25,
+      "deletions": 0,
       "date": "2025-08-26"
     },
     "coverage": 100,

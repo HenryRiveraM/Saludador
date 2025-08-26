@@ -54,3 +54,28 @@ describe("getHourGreeting", () => {
   });
 });
 
+
+// -----------------------------
+// PRUEBAS PARA getCourtesy
+// -----------------------------
+describe("getCourtesy", () => {
+  // ✅ En español, con género "H" debe devolver "Sr."
+  test("retorna 'Sr.' para hombres en español", () => {
+    expect(getCourtesy("es", "H", 25)).toBe("Sr.");
+  });
+
+  // ✅ En español, con género "M" debe devolver "Sra."
+  test("retorna 'Sra.' para mujeres en español", () => {
+    expect(getCourtesy("es", "M", 20)).toBe("Sra.");
+  });
+
+  // ✅ En inglés, sin género pero con edad > 30 debe devolver "Mr./Ms."
+  test("retorna 'Mr./Ms.' si no hay género pero edad > 30 en inglés", () => {
+    expect(getCourtesy("en", "", 40)).toBe("Mr./Ms.");
+  });
+
+  // ✅ En español, sin género y edad joven debe devolver vacío
+  test("retorna vacío si es joven sin género", () => {
+    expect(getCourtesy("es", "", 20)).toBe("");
+  });
+});
