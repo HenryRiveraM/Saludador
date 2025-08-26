@@ -1,7 +1,7 @@
 {
   "name": "parcel-jest-base",
   "version": "1.0.0",
-  "description": "",
+  "description": "#### Creado a partir de proyecto usado en IngSoftware: parcel-jest-base",
   "default": "index.html",
   "type": "module",
   "scripts": {
@@ -30,5 +30,7 @@
   },
   "dependencies": {
     "parcel-jest-base": "file:"
-  }
+  },
+  "main": "cypress.config.js",
+  "keywords": []
 }

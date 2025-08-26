@@ -1,17 +1,36 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "4a40726f02a41e3ab1b92a7c64a59e0b863aa12e",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-08-21T12:40:12.000Z",
       "message": "Agredando la funciones a nuestro chat bot",
-      "url": "https://github.com/HenryRiveraM/Saludador/commit/HEAD"
+      "url": "https://github.com/HenryRiveraM/Saludador/commit/4a40726f02a41e3ab1b92a7c64a59e0b863aa12e"
     },
     "stats": {
       "total": 6102,
       "additions": 2829,
       "deletions": 3273,
       "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-08-26T03:01:20.000Z",
+      "message": "feat: agregando archivo funcionesSaludador.test.js e instalando jest",
+      "url": "https://github.com/HenryRiveraM/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2025-08-26"
     },
     "coverage": 100,
     "test_count": 1,

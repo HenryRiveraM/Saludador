@@ -80,3 +80,7 @@ idiomaEl.addEventListener("change", updateHint);
 // Inicialización
 updateHint();
 mensajeEl.textContent = "";
+
+if (typeof module !== "undefined") {
+  module.exports = { titleCase, getHourGreeting, getCourtesy, buildGreeting };
+}
