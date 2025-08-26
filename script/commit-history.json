@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b9b6674782cabdd04e8815b54003d239ac2a787b",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-08-26T03:01:20.000Z",
       "message": "feat: agregando archivo funcionesSaludador.test.js e instalando jest",
-      "url": "https://github.com/HenryRiveraM/Saludador/commit/HEAD"
+      "url": "https://github.com/HenryRiveraM/Saludador/commit/b9b6674782cabdd04e8815b54003d239ac2a787b"
     },
     "stats": {
       "total": 13,
       "additions": 10,
       "deletions": 3,
+      "date": "2025-08-26"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-08-26T03:06:00.000Z",
+      "message": "feat: agregando prueba para title case",
+      "url": "https://github.com/HenryRiveraM/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 32,
+      "deletions": 0,
       "date": "2025-08-26"
     },
     "coverage": 100,
